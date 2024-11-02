@@ -1,0 +1,30 @@
+{
+  "name": "PRG Booking Room",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/image": "^1.8.0",
+    "@nuxt/ui": "^2.18.6",
+    "@pinia/nuxt": "^0.5.4",
+    "@prisma/nuxt": "^0.0.35",
+    "bcrypt": "^5.1.1",
+    "nuxt": "^3.13.0",
+    "nuxt-auth-utils": "^0.3.9",
+    "vue": "latest",
+    "vue-router": "latest",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@iconify-json/hugeicons": "^1.2.0",
+    "@prisma/client": "^5.20.0",
+    "@types/bcrypt": "^5.0.2",
+    "dayjs-nuxt": "^2.1.11"
+  }
+}
